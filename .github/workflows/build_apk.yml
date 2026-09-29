@@ -18,7 +18,7 @@ jobs:
 
       - name: Prepare project
         run: |
-          unzip -q technical_we_github_ready.zip -d app
+          unzip -q technical_we_github_ready_fixed.zip -d app
       - name: Create Android platform
         working-directory: app
         run: flutter create .
